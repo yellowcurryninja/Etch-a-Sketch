@@ -8,16 +8,37 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(37, 35, 35);
+    font-family: "Open Sans", sans-serif;
 }
 .container {
     background-color: rgb(237, 237, 237);
-    width: 1184px; 
-    height: 784px; 
+    width: 1152px; 
+    height: 768px; 
     display: flex;
     flex-wrap: wrap;
 }
 .container div {
     height: 16px;
     width: 16px;
+}
+h1 {
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 3em;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn {
+    margin-bottom: 10px;
+}
+button {
+    font-size: 1.5em;
+}
+p {
+    margin-bottom: 10px;
 }
