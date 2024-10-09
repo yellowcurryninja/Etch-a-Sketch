@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: rgb(237, 237, 237);
+    width: 1184px; 
+    height: 784px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div {
+    height: 16px;
+    width: 16px;
+}
